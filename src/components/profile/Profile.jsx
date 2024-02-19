@@ -18,10 +18,10 @@ function Profile() {
       <Header>
         <div>
           <div className="row align-items-center justify-content-center my-5">
-            <div className="col-12">
-              <img className="w-100" src={Img} alt="logo" />
+            <div className="col-12 col-md-4">
+              <img src={Img} alt="logo" />
             </div>
-            <div className="col-12">
+            <div className="col-12 col-md-8">
               <h2 className="text-decoration-underline">About Me</h2>
               <p>
                 I come from a background in CNC programming where I was able to
