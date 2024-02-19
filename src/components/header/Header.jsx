@@ -24,11 +24,16 @@ function Header({ children }) {
         </Menu>
       </Sidebar>
 
-      <main className="container"> {children}</main>
-      <i
-        class="fa-solid fa-bars fa-2x m-2 ms-3"
-        onClick={() => setToggled(!toggled)}
-      ></i>
+      <main className="container">
+        {" "}
+        <div>
+          <i
+            class="fa-solid fa-bars fa-2x m-2 ms-3"
+            onClick={() => setToggled(!toggled)}
+          ></i>
+        </div>{" "}
+        {children}
+      </main>
     </div>
   );
 }

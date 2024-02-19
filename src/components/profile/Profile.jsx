@@ -16,8 +16,8 @@ function Profile() {
   return (
     <div>
       <Header>
-        <div>
-          <div className="row align-items-center justify-content-center my-5">
+        <div className="text-center">
+          <div className="row align-items-center justify-content-center my-5 mx-auto">
             <div className="col-12 col-md-4">
               <img src={Img} alt="logo" />
             </div>

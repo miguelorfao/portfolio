@@ -12,8 +12,9 @@ function Projects() {
         <hr />
         <div className="row">
           <div className="col-12 col-md-4">
-            <div class="card" style={{ width: 400 }}>
+            <div class="card border-primary p-2">
               <img src={companyDirectory} alt="..." />
+              <hr />
               <div class="card-body text-center">
                 <Link to="/CompanyDirectory">Company Directory</Link>
               </div>
