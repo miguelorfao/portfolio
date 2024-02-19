@@ -9,7 +9,7 @@ import CompanyDirectory from "./components/projects/companyDirectory/companyDire
 import Projects from "./components/projects/Projects";
 function App() {
   return (
-    <div className="container">
+    <div className="container App">
       <BrowserRouter>
         <Routes>
           <Route element={<HomePage />} path="/" exact />
