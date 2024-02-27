@@ -14,6 +14,13 @@ app.use(
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.json());
 
+const db = mysql.createConnection({
+  host: process.env.MYSQL_ADDON_HOST,
+  user: process.env.MYSQL_ADDON_USER,
+  password: process.env.MYSQL_ADDON_PASSWORD,
+  database: process.env.MYSQL_ADDON_DB,
+});
+
 app.get("/CompanyDirectory", (req, res) => {
   const q = "SELECT * FROM employee";
   db.query(q, (err, data) => {
@@ -76,7 +83,7 @@ app.delete("/CompanyDirectory/:id", (req, res) => {
     return res.json({ Status: "Success" });
   });
 });
-const port = process.env.PORT || 3001;
+const port = process.env.MYSQL_ADDON_PORT || 3001;
 app.listen(port, () => {
   console.log(`Listening to port ${port}`);
 });
