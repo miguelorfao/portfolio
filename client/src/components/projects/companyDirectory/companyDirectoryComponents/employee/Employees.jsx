@@ -4,7 +4,7 @@ import Modal from "../modal/Modal";
 import ModalBtn from "../modal/ModalBtn";
 
 function Employees() {
-  const url = "https://portfolio-xahb.onrender.com/CompanyDirectory";
+  const url = "http://localhost:3001/CompanyDirectory";
 
   const [employee, setEmployee] = useState([]);
   const [loading, setLoading] = useState(true);

@@ -6,7 +6,7 @@ import bodyParser from "body-parser";
 const app = express();
 app.use(
   cors({
-    origin: ["https://miguelorfao.onrender.com/CompanyDirectory"],
+    origin: ["http://localhost:3000/CompanyDirectory"],
     methods: ["POST", "GET"],
     credentials: true,
   })
