@@ -5,6 +5,7 @@ import ModalBtn from "../modal/ModalBtn";
 
 function Employees() {
   const url = process.env.REACT_APP_URL;
+  console.log(url);
   const [employee, setEmployee] = useState([]);
   const [loading, setLoading] = useState(true);
   const [employeeId, setEmployeeId] = useState();
