@@ -4,7 +4,7 @@ import Modal from "../modal/Modal";
 import ModalBtn from "../modal/ModalBtn";
 
 function Employees() {
-  const url = "http://localhost:3001/CompanyDirectory";
+  const url = process.env.REACT_APP_URL;
   const [employee, setEmployee] = useState([]);
   const [loading, setLoading] = useState(true);
   const [employeeId, setEmployeeId] = useState();
