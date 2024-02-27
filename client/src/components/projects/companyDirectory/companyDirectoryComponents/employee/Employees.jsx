@@ -4,7 +4,7 @@ import Modal from "../modal/Modal";
 import ModalBtn from "../modal/ModalBtn";
 
 function Employees() {
-  const url = process.env.REACT_APP_URL;
+  const url = "https://portfolio-xahb.onrender.com/CompanyDirectory";
   console.log(url);
   const [employee, setEmployee] = useState([]);
   const [loading, setLoading] = useState(true);
