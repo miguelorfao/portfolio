@@ -2,7 +2,6 @@ import React from "react";
 import Header from "../header/Header";
 import Img from "../../public/profile.jpeg";
 import PDF from "../../public/Miguel_Orfao_CV.pdf";
-import { Link } from "react-router-dom";
 
 function Profile() {
   const onClickEvent = () => {

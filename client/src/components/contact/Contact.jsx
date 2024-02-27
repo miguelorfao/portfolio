@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import Header from "../header/Header";
 import emailjs from "@emailjs/browser";
-import { Navigate, useNavigate } from "react-router-dom";
 
 function Contact() {
   const form = useRef();

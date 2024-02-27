@@ -1,8 +1,7 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 import HomePage from "./components/main/HomePage";
-import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Profile from "./components/profile/Profile";
 
 import CompanyDirectory from "./components/projects/companyDirectory/companyDirectoryComponents/CompanyDirectory";

@@ -1,6 +1,6 @@
 import { Sidebar, Menu, MenuItem } from "react-pro-sidebar";
 
-import React, { Children, useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 function Header({ children }) {
