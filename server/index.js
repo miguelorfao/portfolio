@@ -6,7 +6,7 @@ import bodyParser from "body-parser";
 const app = express();
 app.use(
   cors({
-    origin: "https://portfolio-xahb.onrender.com",
+    origin: "https://portfolio-xahb.onrender.com/CompanyDirectory",
     methods: ["POST", "GET"],
   })
 );
