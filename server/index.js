@@ -14,13 +14,6 @@ app.use(
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.json());
 
-const db = mysql.createConnection({
-  host: "127.0.0.1",
-  user: "root",
-  password: "",
-  database: "companydirectory",
-});
-
 app.get("/CompanyDirectory", (req, res) => {
   const q = "SELECT * FROM employee";
   db.query(q, (err, data) => {
