@@ -141,7 +141,7 @@ function Contact() {
                 <div className=" h-25 d-flex justify-content-around align-items-center mt-3 d-block d-md-none">
                   <div className="text-center" onClick={linkedInOnclick}>
                     <i class="fa-brands fa-linkedin fa-3x text-primary"></i>
-                    <button>Linkedin</button>
+                    <p>Linkedin</p>
                   </div>
                   <div className="text-center" onClick={gitHubOnclick}>
                     <i class="fa-brands fa-github fa-3x text-primary"></i>
