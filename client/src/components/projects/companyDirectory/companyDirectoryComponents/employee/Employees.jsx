@@ -4,7 +4,7 @@ import Modal from "../modal/Modal";
 import ModalBtn from "../modal/ModalBtn";
 
 function Employees() {
-  const url = "https://portfolio-sigma-two-70.vercel.app/CompanyDirectory";
+  const url = "https://portfolio-xahb.onrender.com/CompanyDirectory";
 
   const [employee, setEmployee] = useState([]);
   const [loading, setLoading] = useState(true);
