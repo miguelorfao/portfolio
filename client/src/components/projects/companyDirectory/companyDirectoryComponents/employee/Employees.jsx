@@ -5,7 +5,7 @@ import ModalBtn from "../modal/ModalBtn";
 
 function Employees() {
   const url = "https://portfolio-xahb.onrender.com/CompanyDirectory";
-  console.log(url);
+
   const [employee, setEmployee] = useState([]);
   const [loading, setLoading] = useState(true);
   const [employeeId, setEmployeeId] = useState();
@@ -35,8 +35,6 @@ function Employees() {
       setLoading(true);
       await axios.get(url).then((res) => {
         setEmployee(res.data);
-
-        setLoading();
 
         setLoading(false);
       });
