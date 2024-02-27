@@ -4,13 +4,12 @@ import cors from "cors";
 import bodyParser from "body-parser";
 
 const app = express();
-// app.use(
-//   cors({
-//     origin: ["https://miguelorfao.onrender.com/"],
-//     methods: ["POST", "GET"],
-//     credentials: true,
-//   })
-// );
+app.use(
+  cors({
+    origin: ["https://miguelorfao.onrender.com/"],
+    methods: ["POST", "GET"],
+  })
+);
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.json());
 
