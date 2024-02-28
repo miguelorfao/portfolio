@@ -4,12 +4,7 @@ import cors from "cors";
 import bodyParser from "body-parser";
 
 const app = express();
-app.use(
-  cors({
-    origin: ["https://portfolio-xahb.onrender.com/CompanyDirectory"],
-    methods: ["POST", "GET"],
-  })
-);
+app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.json());
 
