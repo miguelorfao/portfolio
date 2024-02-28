@@ -91,7 +91,7 @@ function Employees() {
     });
   };
   return (
-    <div>
+    <div className="employee">
       <div className="mb-3 ms-2">
         <ModalBtn
           label="Add Employee"
@@ -108,15 +108,16 @@ function Employees() {
       ) : loading ? (
         <p>Loading...</p>
       ) : (
-        <ul class="list-group list-group-flush " style={{ height: "90vh" }}>
+        <ul class="list-group list-group-flush w-10" style={{ height: "90vh" }}>
           {employee.map((employees) => (
             <li
               class="list-group-item d-flex justify-content-between m-2"
               key={employees.ID}
             >
               <div className="d-flex gap-3">
-                <p>{employees.FirstName}</p>
-                <p>{employees.LastName}</p>
+                <p>
+                  {employees.FirstName} {employees.LastName}
+                </p>
               </div>
               <div className="d-flex gap-3">
                 <ModalBtn
