@@ -15,8 +15,11 @@ function Profile() {
   return (
     <Header>
       <div className="container">
-        <div className="mt-4">
+        <div className="mt-4 d-flex justify-content-between">
           <h2>About Me</h2>
+          <button className="btn btn-outline-info mb-3" onClick={onClickEvent}>
+            Download CV
+          </button>
         </div>
         <hr />
         <div>

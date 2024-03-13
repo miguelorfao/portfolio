@@ -81,15 +81,7 @@ function Contact() {
                 </div>
                 <div className="d-flex gap-2">
                   <h4>Phone:</h4>
-                  <p>07523599307</p>
-                </div>
-                <div>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Corporis incidunt ipsam sint omnis aut ab error? Inventore
-                    illum aliquid laboriosam nihil quas repudiandae aperiam ab,
-                    quasi quo dolores suscipit amet.
-                  </p>
+                  <p>+44 75235 99307</p>
                 </div>
               </div>
               <div className="col-12 col-md-5">
