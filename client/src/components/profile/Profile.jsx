@@ -13,16 +13,20 @@ function Profile() {
     pdfDowload.remove();
   };
   return (
-    <div>
-      <Header>
-        <div className="text-center">
-          <div className="row align-items-center justify-content-center my-5 mx-auto">
-            <div className="col-12 col-md-4">
-              <img src={Img} alt="logo" className="rounded-circle" />
+    <Header>
+      <div className="container">
+        <div className="mt-4">
+          <h2>About Me</h2>
+        </div>
+        <hr />
+        <div>
+          <div className="row mb-3">
+            <div className="col-12 col-md-6">
+              <h3>About Myself</h3>
             </div>
-            <div className="col-12 col-md-8">
-              <h2 className="text-decoration-underline">About Me</h2>
+            <div className="col-12 col-md-6">
               <p>
+                {" "}
                 I come from a background in CNC programming where I was able to
                 develop my technical and design skills. However, I have always
                 been interested in development and I am now looking to establish
@@ -34,21 +38,38 @@ function Profile() {
                 problem-solving skills and a drive to succeed. I am confident
                 that I will make a valuable addition to your development team.
               </p>
-              <button
-                className="btn btn-outline-info w-100 mb-3"
-                onClick={onClickEvent}
-              >
-                Download CV
-              </button>
             </div>
-
-            <hr />
           </div>
-          <div className="row">
-            <div className="col">
-              {" "}
-              <h2 className="text-decoration-underline">Skills / Tools</h2>
-              <hr />
+          <hr />
+          <div className="row mb-3">
+            <div className="col-12 col-md-6">
+              <h3>TimeLine</h3>
+            </div>
+            <div className="col-12 col-md-6">
+              <p>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <p>IT Career Switch</p>
+                    <p>
+                      {" "}
+                      Coding Training -Full stack developer 1 Year Program
+                      During the traineeship I had to demonstrate a very
+                      competent level of the following programming languages and
+                      technical skills HTML, CSS3, JAVASCRIPT PHP, SQL, REACT,
+                      jQuery JAVA, PYTHON, C# NODE.JS COMMAND LINE GIT, GITHUB
+                      REMOTE API ACCESS
+                    </p>
+                  </li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div className="row mb-3">
+            <div className="col-12 col-md-6">
+              <h3>Skills</h3>
+            </div>
+            <div className="col-12 col-md-6">
               <div className="d-flex justify-content-around">
                 <h4 className="text-uppercase"> html 5</h4>
                 <h4 className="text-uppercase"> css</h4>
@@ -56,28 +77,27 @@ function Profile() {
                 <h4 className="text-uppercase"> react</h4>
                 <h4 className="text-uppercase"> bootstrap</h4>
               </div>
-              <hr />
-            </div>
-            <div className="col">
-              {" "}
-              <h2 className="text-decoration-underline">Coding Traineeship</h2>
-              <hr />
-              <div className="">
-                <h3>IT Career Switch</h3>
-                <p>
-                  Coding Training -Full stack developer 1 Year Program During
-                  the traineeship I had to demonstrate a very competent level of
-                  the following programming languages and technical skills HTML,
-                  CSS3, JAVASCRIPT PHP, SQL, REACT, jQuery JAVA, PYTHON, C#
-                  NODE.JS COMMAND LINE GIT, GITHUB REMOTE API ACCESS
-                </p>
-              </div>
-              <hr />
             </div>
           </div>
+          <hr />
+          <div className="row mb-3">
+            <div className="col-12 col-md-6">
+              <h3>Services</h3>
+            </div>
+            <div className="col-12 col-md-6">
+              <div>
+                <h4 className="border-bottom">Web Development</h4>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Nemo, reprehenderit a officia reiciendis
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr />
         </div>
-      </Header>
-    </div>
+      </div>
+    </Header>
   );
 }
 
