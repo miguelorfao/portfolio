@@ -7,7 +7,6 @@ import Profile from "./components/profile/Profile";
 import CompanyDirectory from "./components/projects/companyDirectory/companyDirectoryComponents/CompanyDirectory";
 import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
-import Schedule from "./components/schedule/Schedule";
 
 function App() {
   return (
@@ -23,7 +22,7 @@ function App() {
 
           {/* profile */}
           <Route element={<Profile />} path="/Profile" />
-          <Route element={<Schedule />} path="/Schedule" />
+
           <Route element={<Contact />} path="/Contact" />
           <Route element={<HomePage />} path="/" exact />
         </Routes>

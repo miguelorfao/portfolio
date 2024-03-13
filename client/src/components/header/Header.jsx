@@ -20,9 +20,7 @@ function Header({ children }) {
           <MenuItem>
             <Link to="/Projects">Projects</Link>
           </MenuItem>
-          <MenuItem>
-            <Link to="/Schedule">Schedule A Call</Link>
-          </MenuItem>
+
           <MenuItem>
             <Link to="/Contact">Contact</Link>
           </MenuItem>
