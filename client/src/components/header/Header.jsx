@@ -11,7 +11,8 @@ function Header({ children }) {
         onBackdropClick={() => setToggled(false)}
         toggled={toggled}
         breakPoint="always"
-        backgroundColor="lightgrey"
+        backgroundColor="black"
+        width="200px"
       >
         <Menu>
           <MenuItem>
@@ -27,7 +28,7 @@ function Header({ children }) {
         </Menu>
       </Sidebar>
 
-      <main className="container">
+      <main className="container vh-100">
         {" "}
         <div>
           <i

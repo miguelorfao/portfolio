@@ -125,7 +125,7 @@ function Contact() {
                           placeholder="Message"
                         ></textarea>
                         <div className="w-100 mt-2">
-                          <button className="btn btn-outline-primary w-100">
+                          <button className="btn btn-primary w-100">
                             Send
                           </button>
                         </div>
