@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function HomePage() {
   return (
     <div className="ps-3 pe-3">
-      <div className="row justify-content-center align-items-center">
+      <div className="row justify-content-center align-items-center vh-100">
         <div className="col-12 col-md-6">
           {" "}
           <div className="text-center">
@@ -33,7 +33,7 @@ function HomePage() {
             </div>
           </div>
         </div>
-        <div className="col-12 col-md-6">
+        <div className="col-12 col-md-6 d-none d-md-block">
           <img src={Img} alt="" className="w-100 vh-100" />
         </div>
       </div>
