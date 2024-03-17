@@ -12,7 +12,7 @@ function Header({ children }) {
         toggled={toggled}
         breakPoint="always"
         backgroundColor="black"
-        width="200px"
+        width="210px"
       >
         <Menu>
           <MenuItem>
